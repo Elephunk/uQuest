@@ -240,7 +240,7 @@
         Item_ID: 278
         Display_Name: DiamondPickaxe
         Amount: 1
-        Durability: 0
+        Durability: 1562
 16:
   Name: CarefulNow
   Start_Info: I dislike my neighbors, make me TnT!
@@ -408,7 +408,7 @@
         Item_ID: 291
         Display_Name: Stone Hoe
         Amount: 2
-        Durability: 0
+        Durability: 132
 28:
   Name: Seedin
   Start_Info: I need seeds for my crops! Get me lots of seeds!
@@ -436,7 +436,7 @@
         Item_ID: 300
         Display_Name: Leather Pants
         Amount: 1
-        Durability: 0
+        Durability: 46
 30:
   Name: Smelter
   Start_Info: I need Lava Buckets for smelting!
@@ -571,7 +571,7 @@
       Item:
         Item_ID: 23
         Display_Name: Dispenser
-        Amount: 6
+        Amount: 4
         Durability: 0
 41:
   Name: Addiction
@@ -654,7 +654,7 @@
         Item_ID: 272
         Display_Name: Stone Swords
         Amount: 1
-        Durability: 0
+        Durability: 132
 47:
   Name: Slaughter House
   Start_Info: Go Kill pigs!
