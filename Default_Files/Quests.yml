@@ -585,7 +585,7 @@
       Item:
         Item_ID: 353
         Display_Name: Sugar
-        Amount: 128
+        Amount: 64
         Durability: 0
 42:
   Name: Painter
