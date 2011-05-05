@@ -344,14 +344,14 @@
   Start_Info: I need to write an essay! Get me a ream of paper!
   Finish_Info: Now where is my pen?
   Rewards:
-    Money: 100
+    Money: 200
   Objectives:
     0:
       Type: Gather
       Item:
         Item_ID: 339
         Display_Name: Paper
-        Amount: 64
+        Amount: 32
         Durability: 0
 24:
   Name: KittyKitty
@@ -755,3 +755,269 @@
         Display_Name: Raw Porkchops
         Amount: 2
         Durability: 0
+
+53:
+  Name: Kush Gold Shipment
+  Start_Info: Find the bank in Kush Valley and deliver 10 gold bars.
+  Finish_Info: Delivery complete. Kush Valley thanks you!
+  Rewards:
+    Money: 4100
+  Objectives:
+    0:
+      Type: Move
+      Display_Name: At Bank
+      Objective_ID: move_any
+      Amount: 1
+      Location:
+        Point:
+          World: world
+          X: -697
+          Y: 65
+          Z: -440
+        Give_Range:
+          X: 3
+          Y: 1
+          Z: 3
+    1:
+      Type: Gather
+      Item:
+        Item_ID: 266
+        Display_Name: Gold Ingots
+        Amount: 12
+        Durability: 0
+
+54:
+  Name: Defense of Falenshire
+  Start_Info: Monsters have descended on Falenshire! Bring 2 bows and 20 arrows to Falenshire Watch.
+  Finish_Info: Falenshire is safe for another night!
+  Rewards:
+    Money: 1000
+  Objectives:
+    0:
+      Type: Move
+      Display_Name: Falenshire Watch (541x/647z)
+      Objective_ID: move_any
+      Amount: 1
+      Location:
+        Point:
+          World: world
+          X: 541
+          Y: 107
+          Z: 647
+        Give_Range:
+          X: 5
+          Y: 15
+          Z: 5
+    1:
+      Type: Gather
+      Item:
+        Item_ID: 261
+        Display_Name: Bows
+        Amount: 2
+        Durability: 0
+    2:
+      Type: Gather
+      Item:
+        Item_ID: 262
+        Display_Name: Arrows
+        Amount: 20
+        Durability: 0
+
+55:
+  Name: Lazy Eye Emergency
+  Start_Info: The Lazy Eye Pub is in dire need of more alcohol! Bring them wheat and sugar!
+  Finish_Info: The citizens of Anor Nuall will sleep soundly tonight because of you.
+  Rewards:
+    Money: 800
+  Objectives:
+    0:
+      Type: Move
+      Display_Name: Lazy Eye Pub
+      Objective_ID: move_any
+      Amount: 1
+      Location:
+        Point:
+          World: world
+          X: -938
+          Y: 74
+          Z: -643
+        Give_Range:
+          X: 7
+          Y: 2
+          Z: 7
+    1:
+      Type: Gather
+      Item:
+        Item_ID: 296
+        Display_Name: Wheat
+        Amount: 20
+        Durability: 0
+    2:
+      Type: Gather
+      Item:
+        Item_ID: 353
+        Display_Name: Sugar
+        Amount: 32
+        Durability: 0
+
+56:
+  Name: Kush Town Hall
+  Start_Info: Kush Valley needs you to deliver important documents to their town hall office.
+  Finish_Info: Delivery complete. Kush Valley thanks you!
+  Rewards:
+    Money: 300
+  Objectives:
+    0:
+      Type: Move
+      Display_Name: Town Hall (Upstairs office)
+      Objective_ID: move_any
+      Amount: 1
+      Location:
+        Point:
+          World: world
+          X: -679
+          Y: 69
+          Z: -415
+        Give_Range:
+          X: 3
+          Y: 1
+          Z: 3
+    1:
+      Type: Gather
+      Item:
+        Item_ID: 339
+        Display_Name: Paper
+        Amount: 20
+        Durability: 0
+
+57:
+  Name: Fountain Water
+  Start_Info: The fountain in front of Funk's house in Kush Valley needs more water.
+  Finish_Info: Funk will sleep soundly knowing his fountain is working!
+  Rewards:
+    Money: 500
+  Objectives:
+    0:
+      Type: Move
+      Display_Name: Funk's Fountain
+      Objective_ID: move_any
+      Amount: 1
+      Location:
+        Point:
+          World: world
+          X: -716
+          Y: 63
+          Z: -451
+        Give_Range:
+          X: 4
+          Y: 4
+          Z: 4
+    1:
+      Type: Gather
+      Item:
+        Item_ID: 326
+        Display_Name: Water Buckets
+        Amount: 3
+        Durability: 0
+
+58:
+  Name: Holy Books
+  Start_Info: Bring 5 obscene books to the Kush Valley church.
+  Finish_Info: The weekly book burning ceremony will now go as planned.
+  Rewards:
+    Money: 500
+  Objectives:
+    0:
+      Type: Move
+      Display_Name: Kush Valley Church
+      Objective_ID: move_any
+      Amount: 1
+      Location:
+        Point:
+          World: world
+          X: -679
+          Y: 66
+          Z: -458
+        Give_Range:
+          X: 6
+          Y: 4
+          Z: 6
+    1:
+      Type: Gather
+      Item:
+        Item_ID: 340
+        Display_Name: Water Buckets
+        Amount: 3
+        Durability: 0
+
+59:
+  Name: Bellemead Inn
+  Start_Info: Bring 3 beds to the Bellemead Inn.
+  Finish_Info: Weary travellers will have a safe place to sleep now.
+  Rewards:
+    Money: 500
+  Objectives:
+    0:
+      Type: Move
+      Display_Name: Bellemead Inn
+      Objective_ID: move_any
+      Amount: 1
+      Location:
+        Point:
+          World: world
+          X: -369
+          Y: 70
+          Z: -810
+        Give_Range:
+          X: 5
+          Y: 6
+          Z: 5
+    1:
+      Type: Gather
+      Item:
+        Item_ID: 340
+        Display_Name: Beds
+        Amount: 3
+        Durability: 0
+
+60:
+  Name: Bellemead Tower
+  Start_Info: Go to the top of Bellemead Tower and enjoy the scenery.
+  Finish_Info: The weekly book burning ceremony will now go as planned.
+  Rewards:
+    Money: 200
+  Objectives:
+    0:
+      Type: Move
+      Display_Name: Bellemead Inn (-344x, -809z)
+      Objective_ID: move_any
+      Amount: 1
+      Location:
+        Point:
+          World: world
+          X: -344
+          Y: 92
+          Z: -809
+        Give_Range:
+          X: 7
+          Y: 10
+          Z: 7
+
+61:
+  Name: Thinning the Horde
+  Start_Info: Kill any 25 monsters in the Fractured Kingdom
+  Finish_Info: You have proved your strength and honor.
+  Rewards:
+    Money: 1500
+    Item:
+      Item_ID: 264
+      Display_Name: Diamonds
+      Amount: 3
+      Durability: 0
+
+  Objectives:
+    0:
+      Type: Kill
+      Display_Name: Slain Monsters
+      Objective_ID: kill_any
+      Amount: 25
